@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "430792554915",
+    "firebase_url": "https://knowyourcity-75c82.firebaseio.com",
+    "project_id": "knowyourcity-75c82",
+    "storage_bucket": "knowyourcity-75c82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430792554915:android:de1e0b78ae719c30",
+        "android_client_info": {
+          "package_name": "com.example.knowyourcity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430792554915-c2lj2o5june66s51n1te9i0l06jlrvq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.knowyourcity",
+            "certificate_hash": "3b80fbe9520a16ef261ee6af1099348563619794"
+          }
+        },
+        {
+          "client_id": "430792554915-k6o9kklonco1hr69ng1qe371u72r5kpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHgTstqH9sfq14P_Cjlv11OZ2klN0zUII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430792554915-k6o9kklonco1hr69ng1qe371u72r5kpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

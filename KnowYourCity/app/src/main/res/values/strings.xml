@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Know your city</string>
+    <string name="about">O nama</string>
+    <string name="prijavljivanje">P R I J A V LJ I V A NJ E!</string>
+    <string name="korisnickoIme">Korisničko ime:</string>
+    <string name="sifra">Šifra:</string>
+    <string name="registruj">REGISTRUJ SE</string>
+    <string name="prijaviSe">PRIJAVI SE</string>
+    <string name="zaboravljenaSifra">Zaboravili ste šifru?</string>
+    <string name="title_activity_registracija">RegistracijaActivity</string>
+    <string name="registracija">R E G I S T R A C I J A!</string>
+    <string name="ime">Ime i prezime: </string>
+    <string name="sifraAgain">Ponovite sifru</string>
+    <string name="izaberiSliku">Izaberi sliku</string>
+    <string name="slikajKamerom">Slikaj kamerom</string>
+    <string name="title_activity_mapa">MapaActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ime i prezime</string>
+    <string name="nav_header_subtitle">Broj poena</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="pronadji_prijatelje">Pronadji prijatelje</string>
+    <string name="rang_lista">Rang lista</string>
+    <string name="dodaj_novi_objekat">Dodaj novi objekat</string>
+    <string name="odjavi_se">Odjavi se</string>
+    <string name="rang_lista_naslov">RANG LISTA</string>
+    <string name="naziv_objekta">Naziv objekta:</string>
+    <string name="potvrdi">Potvrdi</string>
+    <string name="slikaj_kamerom">Slikaj kamerom</string>
+    <string name="ucitaj_sliku">Ucitaj sliku</string>
+    <string name="pretraga_objekta">Pretraga objekta</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="opis">Opis:</string>
+    <string name="pretrazi">Pretrazi</string>
+    <string name="sacuvaj">Sacuvaj</string>
+    <string name="title_activity_pregled_objekta">pregledObjektaActivity</string>
+    <string name="izmeni">Izmeni</string>
+    <string name="kviz">Startuj kviz</string>
+    <string name="pitanje">Novo pitanje:</string>
+    <string name="tacan_odgovor">Tacan odgovor:</string>
+    <string name="netacan_odgovor_1">Netacan odgovor 2:</string>
+    <string name="netacan_odgovor_2">Netacan odgovor 1:</string>
+    <string name="poena">poena</string>
+    <string name="preferences_share_location">share_loc</string>
+    <string name="preferences_show_friends">show_friends</string>
+
+
+</resources>

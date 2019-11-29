@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name = "noviObjekat"> 50 </integer>
+    <integer name = "novoPitanje"> 20 </integer>
+    <integer name = "tacanOdgovor"> 10 </integer>
+
+    <integer name = "maxQuestions"> 5 </integer>
+</resources>

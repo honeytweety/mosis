@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.knowyourcity">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PretragaPoStringuActivity"></activity>
+        <activity android:name=".IzmeniProfilActivity" />
+
+        <service
+            android:name=".LocationTrackService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".PregledPrijateljaActivity" />
+        <activity android:name=".KrajKvizaActivity" />
+        <activity android:name=".PregledPitanjaActivity" />
+        <activity android:name=".DodajPitanjeActivity" />
+        <activity
+            android:name=".PregledObjektaActivity"
+            android:label="@string/title_activity_pregled_objekta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PretragaPrijateljaActivity" />
+        <activity android:name=".DodajNoviObjekatActivity" />
+        <activity android:name=".RangListaActivity" />
+        <activity
+            android:name=".MapaActivity"
+            android:label="Filtriraj objekte:"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegistracijaActivity"
+            android:label="@string/title_activity_registracija"
+            android:parentActivityName=".PrijavaActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.knowyourcity.PrijavaActivity" />
+        </activity>
+        <activity
+            android:name=".PrijavaActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/holo_blue_dark"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".DodajPitanjeActivity">
+
+
+
+    <TextView
+            android:id="@+id/pit"
+            android:layout_width="265dp"
+            android:layout_height="83dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/pitanje"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dodajPitanjeActivityPitanjeET"
+            android:layout_width="347dp"
+            android:layout_height="73dp"
+            android:layout_below="@+id/pit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:outlineSpotShadowColor="@color/colorCrna"
+            android:textColorHint="@color/colorCrna"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTacan"
+            android:layout_width="151dp"
+            android:layout_height="87dp"
+            android:layout_below="@+id/dodajPitanjeActivityPitanjeET"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/tacan_odgovor"
+            android:textColor="@android:color/white"
+            android:textColorLink="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dodajPitanjeActivityTacanOdgovorET"
+            android:layout_width="342dp"
+            android:layout_height="67dp"
+            android:layout_below="@+id/txtTacan"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/holo_blue_bright"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/netacan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dodajPitanjeActivityTacanOdgovorET"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/netacan_odgovor_2"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dodajPitanjeActivityNetacanET"
+            android:layout_width="338dp"
+            android:layout_height="61dp"
+            android:layout_below="@+id/netacan"
+            android:layout_centerInParent="true"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/netacan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dodajPitanjeActivityNetacanET"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/netacan_odgovor_1"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dodajPitanjeActivityNetacan2ET"
+            android:layout_width="345dp"
+            android:layout_height="64dp"
+            android:layout_below="@id/netacan2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btndodajPitanjeSacuvaj"
+            android:layout_width="151dp"
+            android:layout_height="82dp"
+            android:layout_below="@+id/dodajPitanjeActivityNetacan2ET"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="90dp"
+            android:backgroundTint="@color/colorBlueDark"
+            android:gravity="center"
+            android:text="Sačuvaj pitanje"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+</ScrollView>

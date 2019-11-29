@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sveFill"
+        android:orderInCategory="100"
+        android:title="Svi objekti"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/spomeniciFil"
+        android:orderInCategory="100"
+        android:title="Spomenici"
+        app:showAsAction="never"
+        />
+
+    <item android:orderInCategory="100"
+        android:title="Crkve"
+        app:showAsAction="never"
+        android:id="@+id/crkveFil"/>
+
+
+    <item android:orderInCategory="100"
+        android:title="Izletišta"
+        app:showAsAction="never"
+        android:id="@+id/izlatistaFil"/>
+
+
+
+    <item android:orderInCategory="100"
+        android:title="Festivali"
+        app:showAsAction="never"
+        android:id="@+id/festivaliFil"/>
+
+
+    <item android:orderInCategory="100"
+        android:title="Česme"
+        app:showAsAction="never"
+        android:id="@+id/cesmeFil"/>
+
+
+    <item android:orderInCategory="100"
+        android:title="Ostalo"
+        app:showAsAction="never"
+        android:id="@+id/ostaloFil"/>
+
+
+
+</menu>

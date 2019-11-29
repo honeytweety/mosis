@@ -1,0 +1,26 @@
+rootProject.name = 'osmdroid-parent'
+
+//this is the normal settings.gradle file for osmdroid, which defines which modules are included
+//in the build process. Default is everything
+
+//libraries
+include ':osmdroid-android'
+include ':osmdroid-mapsforge'
+include ':osmdroid-geopackage'
+include ':osmdroid-wms'
+
+//sample apps
+include ':OpenStreetMapViewer'
+
+include ':osmdroid-simple-map'
+
+//jdk specific tools and applications
+include ':OSMMapTilePackager'
+include ':osmdroid-server-jdk'
+
+//dist package
+include ':osmdroid-dist'
+
+//Sunset projects (Deprecated) 
+//include ':osmdroid-third-party'
+//include ':GoogleWrapperSample'
